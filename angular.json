@@ -23,9 +23,14 @@
               "src/assets"
             ],
             "styles": [
+              "../recipe/node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "../recipe/node_modules/jquery/dist/jquery.min.js",
+              "../recipe/node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "../recipe/node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
